@@ -44,7 +44,7 @@
       </div>
       <div class="content">
         <div class="music-control">
-          <audio controls autoplay loop class="music" style="margin-top: 25px;">
+          <audio controls autoplay loop class="music" style="display:none;">
             <source src="./music/NoiNCoanh.mp3" type="audio/mp3" />
           </audio>
         </div>
@@ -70,9 +70,9 @@
       btn.style.display = "block";g
     });
 
-    window.addEventListener('click', function() {
-    var audio = document.querySelector('.music');
-    audio.play();
+    window.addEventListener('click', function () {
+		var audio = document.querySelector('.music');
+		audio.play();
     });
   </script>
 </html>

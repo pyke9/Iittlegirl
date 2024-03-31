@@ -165,7 +165,7 @@ body {
 .wrapper button {
   position: relative;
   padding: 10px 20px;
-  top: 120px;
+  top: 160px;
   background: rgb(255, 69, 109);
   color: #fff;
   border: none;
@@ -185,7 +185,7 @@ button:hover p {
 }
 .content {
   position: relative;
-  top: 20px;
+  top: 100px;
   width: 350px;
   height: 280px;
   background: #fff;
